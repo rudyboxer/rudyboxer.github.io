@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face	{
+	font-family: font1;
+	src: url(RobotoCondensed-Regular.ttf);
+}
+
+
+
+.instagram {
+	width: 	100px;
+	height: 100px;
+	font-family: font1;
+	background-image: url(instagramlogo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin: 100px;
+	position: absolute;
+}
+
+
+.instagram:hover {
+	width: 350px;
+	height: 120px;
+	background-size: 100px;
+	background-color: white;
+	background-position-x: 15px;
+	background-position-y: 13px;
+	border-radius: 50px;
+	margin-left: 10px;
+	transition: 0.5s;
+	box-shadow: 0px 30px 100px -40px rgba(0, 0, 0, 0.75);
+	z-index: -99;
+}
+
+
+.text  {
+	text-decoration: none;
+	font-size: 90px;
+	margin-left: 120px;	
+	margin-top: 10px;
+	color: white;
+	display: inline-block;
+	transition: 0.5s;
+	transition-delay: 0s;
+	
+}
+
+a:hover .text {
+	color: black;
+	transition-delay: 0.25s;
+	position: absolute;
+	z-index: 10;
+}
+
